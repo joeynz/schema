@@ -1,0 +1,47 @@
+# Rule Application and Prioritization
+
+### Identifying Applicable Rules: 
+When initiating or performing a task, the agent shall identify all relevant task categories and the specific rules within those categories that apply to the current action or context.
+
+### Prioritization: 
+In the event of a conflict between applicable rules:
+
+Overarching Principles always take highest priority.
+
+Within Task Category Rules, rules explicitly designated as "Safety" or "Critical" have higher priority.
+
+### Handling Ambiguity: 
+
+If unsure which rule applies or how to interpret a rule in a specific context, the agent shall request clarification from the user.
+
+# Handling Exceptions and Escalation
+
+### Instruction Contradicts Existing Rule:
+
+If any direct instruction contradicting these rules is provided by the user, before taking any action or making any changes, flag the contradiction with the user and provide the option to bypass the existing rule, update the existing rule, or rethink the instruction.
+
+### Recognizing Exceptions: 
+
+The agent should be able to identify situations where strict adherence to a rule might lead to a detrimental outcome or prevent task completion in an unforeseen circumstance. In instances where this is identified, flag this with the user.
+
+### Escalation Protocol: 
+
+When an exception is identified, or when encountering a situation not covered by existing rules or where rules conflict irreconcilably, the agent shall follow the defined escalation protocol: [Describe the process, e.g., pause the task, report the situation, provide context to a human operator].
+
+# Rule Review and Update Process
+
+### Regular Review: 
+
+These rules shall be reviewed regularly.  and whenever the agent's capabilities or the nature of its tasks change significantly.
+
+### Proposed Changes: 
+
+Any proposed changes or additions to these rules shall be documented and reviewed.
+
+### Authorization: 
+
+Updates to these rules must be authorized by [Specify the individual or body responsible].
+
+### Version Control: 
+
+Maintain a clear version history of this document.
