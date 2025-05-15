@@ -1,0 +1,32 @@
+<header>
+  Category: Principle
+  Brief: Describe taxonomy and categories for Cursor Agent.
+</header>
+---
+<rules>
+  # Taxonomy and classifications
+  
+  For each task, action, update or change, a category should be assigned in the header.
+
+  A list of rule categories and their priorities can be found below:
+
+  Priority 1: Critical. Follow at all times.
+  Persona
+  Principle
+
+  Priority 2: 
+  Internal Communication
+  External Communication
+  Feedback
+
+  Project Guidelines
+  
+  Code Generation
+  Testing
+
+  
+
+
+  
+</rules>
+
